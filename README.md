@@ -90,8 +90,10 @@ This structure aligns incentives: PennyWise wins only if its users win.
 
 ## Outputs
 
-1. **Fan Chart** — 90% confidence interval of portfolio growth across 5,000 futures vs. cash baseline
-2. **Probability Distribution** — histogram of final portfolio values showing right-skewed outcome distribution
+1. **Fan Chart** — 90% confidence interval of portfolio growth across 5,000 futures vs. cash baseline <img width="1059" height="575" alt="fan-chart" src="https://github.com/user-attachments/assets/66c495c3-9dae-43e7-94d9-3c6ddacb00fd" />
+
+2. **Probability Distribution** — histogram of final portfolio values showing right-skewed outcome distribution <img width="858" height="556" alt="histogram" src="https://github.com/user-attachments/assets/7eefd537-86f5-45eb-b76d-d10841d42d54" />
+
 3. **Quant Metrics** — 95% VaR, probability of beating cash, per-user breakdown
 
 ---
