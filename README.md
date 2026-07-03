@@ -1,4 +1,4 @@
-# PennyWise 💰
+# PennyWise v1.0
 ### A Monte Carlo Wealth Simulator for India's UPI-Native Working Class
 
 ---
@@ -26,6 +26,9 @@ To test whether this actually works mathematically, I built a Monte Carlo simula
 ---
 
 ## The Math
+
+Rather than predicting a single future, Monte Carlo simulation generates thousands of plausible futures, allowing us to estimate the distribution of long-term outcomes instead of relying on one deterministic forecast.
+Monte Carlo simulation requires a model describing how asset prices evolve over time. PennyWise uses Geometric Brownian Motion for that purpose.
 
 **Why Geometric Brownian Motion?**
 
@@ -63,7 +66,7 @@ Parameters were derived from real NIFTY 50 data (15-year period) using:
 
 ## Key Findings
 
-- **50-paisa round-ups yield a 25%+ wealth multiplier** over 5 years at median market performance
+- The simulation suggests **50-paisa round-ups yield a 25%+ wealth multiplier** over 5 years at median market performance
 - Right-skewed distribution of outcomes: the potential for outlier growth significantly outweighs downside risk
 - **95% Value at Risk (VaR):** Even in bear market scenarios, the pooling strategy remains robust for the average user
 - Probability of beating cash: calculated across all 5,000 simulated futures
@@ -72,7 +75,7 @@ Parameters were derived from real NIFTY 50 data (15-year period) using:
 
 ## Business Model
 
-PennyWise takes a **15% fee on profits only** — never on principal. Users always get their money back. The startup only earns when users earn.
+PennyWise takes a **15% fee on profits only** — never on principal. PennyWise charges fees only on realised profits, ensuring the platform's incentives remain aligned with those of its users. We earn only when the users earn
 
 This structure aligns incentives: PennyWise wins only if its users win.
 
